@@ -28,6 +28,7 @@ namespace EjercicioTelegrama
             char tipoTelegrama = ' ';
             int numPalabras = 0;
             double coste;
+            int i = 0;
 
             //Leo el telegrama  
             textoTelegrama = txtTelegrama.Text;
