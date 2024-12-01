@@ -34,6 +34,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtPrecio = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.checkordinario = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // label1
@@ -90,11 +91,22 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // checkordinario
+            // 
+            this.checkordinario.AutoSize = true;
+            this.checkordinario.Location = new System.Drawing.Point(204, 256);
+            this.checkordinario.Name = "checkordinario";
+            this.checkordinario.Size = new System.Drawing.Size(82, 20);
+            this.checkordinario.TabIndex = 6;
+            this.checkordinario.Text = "ordinario";
+            this.checkordinario.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.checkordinario);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtPrecio);
             this.Controls.Add(this.label2);
@@ -116,6 +128,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtPrecio;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.CheckBox checkordinario;
     }
 }
 
